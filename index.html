@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700">
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/style.min.css">
     
     <meta property="og:title" content="Peter Luu &raquo; freelance web developer">
     <meta property="og:description" content="Peter Luu is a freelance web developer based in Toowoomba, Australia, specialising in small businesses, charities, and non-for-profit organisations.">
@@ -115,9 +115,13 @@
             <!-- Contact Form -->
             <aside class="pure-u-1-2 contact-info" id="contact">
 <!-- start Google form -->
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='http://kinesisdigital.com.au/';}"></iframe>
 <form action=
 "https://docs.google.com/a/luu.id.au/forms/d/1T8Wx7YKlsjwRAWA-IQs6BhA6GhaZiaG0M-AShcWzPmI/formResponse"
-method="post" name="ss-form" onsubmit="" target="_self" class="pure-form pure-form-stacked">
+method="post" name="ss-form" onsubmit="submitted=true;" target="hidden_iframe" class="pure-form pure-form-stacked">
     <fieldset>
         <legend>Contact Form</legend>
    
