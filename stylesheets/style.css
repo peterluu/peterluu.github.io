@@ -43,6 +43,8 @@ html {
     font-weight: lighter;
 }
 
+.container { padding: 0 1em }
+
 .main-sidebar {
 	background: #222;
 	background: rgba(34,34,34,.4);
@@ -73,7 +75,17 @@ html {
 	line-height: 1.5em;
 }
 
-.container { padding: 0 1em }
+.thankyou {
+    background: #eee;
+}
+
+.thankyou-text { padding: 1em 2em }
+
+.thankyou-heading {
+    font-size: 300%;
+    font-weight: bold;
+    color: #222;
+}
 
 footer {
     padding: 1em;
@@ -85,6 +97,8 @@ footer {
 }
 
 	footer p { margin: 0 }
+
+/* THEME TYPOGRAPHY */
 
 h1,
 h2,
@@ -106,6 +120,8 @@ address strong { margin-right: 1em }
     font-weight: lighter;
 }
 
+/* THEME MEDIA */
+
 .alignright {
     display: block;
     margin: 0 auto;
@@ -119,6 +135,11 @@ address strong { margin-right: 1em }
 }
 
 .img-circle { border-radius: 50% }
+
+.img-caption {
+    font-size: 60%;
+    text-align: center;
+}
 
 #about .img-profile { max-width: 50% }
 
