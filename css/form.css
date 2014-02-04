@@ -168,3 +168,9 @@ div.calendar tr.days td.today {
 div.calendar tr.days td.otherDay {
 	color: #bbb;
 }
+
+/* ReCaptcha */
+.recaptchatable a img {
+	max-width: auto;
+	border: 0;
+}
