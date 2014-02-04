@@ -46,10 +46,6 @@
 	width: 150px !important;
 }
 
-.form-label-top {
-	font-weight: bold;
-}
-
 .form-label-left {
 	width: 150px !important;
 }
@@ -170,6 +166,12 @@ div.calendar tr.days td.otherDay {
 }
 
 /* ReCaptcha */
-.recaptchatable a img {
+.recaptchatable a img, .recaptchatable td img {
 	max-width: none;
+}
+
+.recaptcha_only_if_privacy {
+	float: none;
+	text-align: center;
+	margin: 0;
 }
