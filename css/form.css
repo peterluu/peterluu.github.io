@@ -171,6 +171,5 @@ div.calendar tr.days td.otherDay {
 
 /* ReCaptcha */
 .recaptchatable a img {
-	max-width: auto;
-	border: 0;
+	max-width: none;
 }
