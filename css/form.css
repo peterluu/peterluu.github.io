@@ -174,7 +174,7 @@ div.calendar tr.days td.otherDay {
 }
 
 .recaptchatable .recaptcha_image_cell {
-	background: none;
+	background-color: transparent !important;
 }
 
 .recaptcha_only_if_privacy {
