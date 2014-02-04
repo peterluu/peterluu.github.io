@@ -67,7 +67,7 @@ html {
 .main-content {
 	background-color: #fff;
 	background-color: rgba(255,255,255,.8);
-	background-image: url('images/kd-logo_bg.png');
+	background-image: url('img/kd-logo_bg.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: right bottom;
