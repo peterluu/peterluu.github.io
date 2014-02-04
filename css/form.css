@@ -4,10 +4,10 @@
 	list-style-type: none;
 }
 
-.form-textbox, .form-textarea, .form-dropdown {
-	-moz-border-radius: 4px 4px;
-	-webkit-border-radius: 4px 4px;
-	border-radius: 4px 4px;
+.form-textbox, .form-textarea, .form-dropdown, .recaptchatable #recaptcha_response_field {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
 	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
@@ -28,9 +28,9 @@
 }
 
 .form-submit-button, .form-submit-reset, .form-submit-print {
-	-moz-border-radius: 4px 4px;
-	-webkit-border-radius: 4px 4px;
-	border-radius: 4px 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
 	padding: 8px 4px;
 	border-color: #7C7C7C #C3C3C3 #DDDDDD;
 	background: #f7f7f7;
@@ -165,8 +165,16 @@ div.calendar tr.days td.otherDay {
 }
 
 /* ReCaptcha */
+.recaptchatable {
+	border: 0;
+}
+
 .recaptchatable a img, .recaptchatable td img {
 	max-width: none;
+}
+
+.recaptchatable .recaptcha_image_cell {
+	background: none;
 }
 
 .recaptcha_only_if_privacy {
